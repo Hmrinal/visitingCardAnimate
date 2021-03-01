@@ -13,3 +13,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+.card{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 10px 0 50px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
