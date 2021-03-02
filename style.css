@@ -26,3 +26,12 @@ body{
     box-shadow: 10px 0 50px rgba(0,0,0,0.5);
     overflow: hidden;
 }
+.card:nth-child(1){
+    margin-right: 30px;
+}
+body:hover .card{
+    filter: blur(15px);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: 0.9s;
+}
