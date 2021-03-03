@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html, body{
+html, body {
     height: 100vh;
     background: #666666;
     font-family: 'Open Sans',sans-serif;
 }
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ body{
     box-shadow: 10px 0 50px rgba(0,0,0,0.5);
     overflow: hidden;
 }
-.card:nth-child(1){
+.card:nth-child(1) {
     margin-right: 30px;
 }
 body:hover .card{
@@ -42,7 +42,7 @@ body .card:hover{
     transition: 0.9s;
 }
 
-h2{
+h2 {
     position: absolute;
     left: 0;
     top: 0;
@@ -54,7 +54,7 @@ h2{
     color:#ffffff;
     mix-blend-mode: difference;
 }
-p{
+p {
     position: absolute;
     left: 0;
     bottom: 0;
