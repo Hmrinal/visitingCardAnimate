@@ -63,3 +63,20 @@ p{
     color: #ffffff;
     mix-blend-mode: difference;
 }
+#circle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-top: -330px;
+    margin-left: 200px;
+}
+#triangle{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 20px;
+    transform: rotate(70deg);
+    margin-top: -430px;
+    margin-left: 200px;
+}
